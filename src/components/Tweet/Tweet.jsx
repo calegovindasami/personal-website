@@ -67,7 +67,7 @@ export const Tweet = () => {
         </Box>
 
         <Box>
-          <CardMedia component="img" height="300" image="../demo.png" />
+          <CardMedia component="img" height="300" image="./demo.png" />
         </Box>
         <CardActions>
           <Button>
