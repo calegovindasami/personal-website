@@ -33,7 +33,7 @@ export const Bio = () => {
         }}
         id="ava"
       >
-        <img src="/avatar.jpg" height="150px"></img>
+        <img src="src\assets\avatar.jpg" height="150px"></img>
       </Avatar>
       <div id="biography">
         <div id="heading">

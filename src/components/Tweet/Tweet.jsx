@@ -44,7 +44,7 @@ export const Tweet = () => {
               <CardHeader
                 avatar={
                   <Avatar>
-                    <img src="/avatar.jpg" height="45"></img>
+                    <img src="src\assets\avatar.jpg" height="45"></img>
                   </Avatar>
                 }
                 titleTypographyProps={{
@@ -67,7 +67,7 @@ export const Tweet = () => {
         </Box>
 
         <Box>
-          <CardMedia component="img" height="300" image="/demo.png" />
+          <CardMedia component="img" height="300" image="src\assets\demo.png" />
         </Box>
         <CardActions>
           <Button>

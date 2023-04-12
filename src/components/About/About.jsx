@@ -38,7 +38,10 @@ export const About = () => {
       >
         <Tooltip title="C#">
           <IconButton disableRipple="true" className="icBtn">
-            <Avatar sx={{ width: 64, height: 64 }} src="/csharp.svg" />
+            <Avatar
+              sx={{ width: 64, height: 64 }}
+              src="src\assets\csharp.svg"
+            />
           </IconButton>
         </Tooltip>
 
@@ -47,14 +50,14 @@ export const About = () => {
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="square"
-              src="/kotlin.svg"
+              src="src\assets\kotlin.svg"
             />
           </IconButton>
         </Tooltip>
 
         <Tooltip title="SQL">
           <IconButton disableRipple="true" className="icBtn">
-            <Avatar sx={{ width: 64, height: 64 }} src="/sql.png" />
+            <Avatar sx={{ width: 64, height: 64 }} src="src\assets\sql.png" />
           </IconButton>
         </Tooltip>
 
@@ -63,7 +66,7 @@ export const About = () => {
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="square"
-              src="/js.svg"
+              src="src\assets\js.svg"
             />
           </IconButton>
         </Tooltip>
@@ -73,7 +76,7 @@ export const About = () => {
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="circular"
-              src="/java.svg"
+              src="src\assets\java.svg"
             />
           </IconButton>
         </Tooltip>
