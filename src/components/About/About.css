@@ -1,0 +1,7 @@
+.icBtn:hover {
+  transform: scale(1.3);
+}
+
+.icBtn {
+  transition: transform 1s;
+}

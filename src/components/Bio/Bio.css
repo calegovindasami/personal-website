@@ -1,0 +1,57 @@
+#ava {
+  top: 0;
+  transform: translateY(165px) translateX(25px);
+  position: absolute;
+}
+
+#ThreeD {
+  background-color: aliceblue;
+  height: 250px;
+}
+
+#biography {
+  overflow: hidden;
+  padding-top: 75px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#heading #name {
+  font-weight: bolder;
+  padding-left: 25px;
+}
+
+#heading #description {
+  display: flex;
+  justify-content: start;
+  color: black;
+}
+
+#desc {
+  text-align: start;
+  padding-left: 25px;
+}
+
+#tags {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#tags div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+a {
+  cursor: pointer;
+}
