@@ -54,20 +54,28 @@ export const Tweet = () => {
                   align: "left",
                 }}
                 title={<div id="title">Cale</div>}
-                subheader={<Chip size="small" label="📚 Exams loading. . ." />}
+                subheader={
+                  <span>
+                    <Chip size="small" label="🖥️ Debugging..." />
+                  </span>
+                }
               />
             </Box>
             <Typography variant="body1" textAlign="left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolor
-              animi, esse ex expedita distinctio alias perferendis maxime natus
-              consequuntur. Quidem harum perspiciatis temporibus omnis aut
-              nostrum unde magni alias.
+              In 2020, I embarked on my journey in web development through{" "}
+              <a href="www.theodinproject.com">The Odin Project</a>. Despite my
+              interest in creating a personal website, I never found the
+              opportunity to do so. However, as I now search for internships and
+              job prospects, I finally decided to take the plunge. Using React
+              and MUI, I developed my own website.
             </Typography>
           </CardContent>
         </Box>
 
         <Box>
-          <CardMedia component="img" height="300" image="./demo.png" />
+          <CardMedia>
+            <img src="./react.svg" height={300} />
+          </CardMedia>
         </Box>
         <CardActions>
           <Button>
