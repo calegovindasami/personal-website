@@ -37,13 +37,13 @@ export const About = () => {
         }}
       >
         <Tooltip title="C#">
-          <IconButton disableRipple="true" className="icBtn">
+          <IconButton disableRipple className="icBtn">
             <Avatar sx={{ width: 64, height: 64 }} src="./csharp.svg" />
           </IconButton>
         </Tooltip>
 
         <Tooltip title="Kotlin">
-          <IconButton disableRipple="true" className="icBtn">
+          <IconButton className="icBtn">
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="square"
@@ -53,13 +53,13 @@ export const About = () => {
         </Tooltip>
 
         <Tooltip title="SQL">
-          <IconButton disableRipple="true" className="icBtn">
+          <IconButton className="icBtn">
             <Avatar sx={{ width: 64, height: 64 }} src="./sql.png" />
           </IconButton>
         </Tooltip>
 
         <Tooltip title="JavaScript">
-          <IconButton disableRipple="true" className="icBtn">
+          <IconButton disableRipple className="icBtn">
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="square"
@@ -69,7 +69,7 @@ export const About = () => {
         </Tooltip>
 
         <Tooltip title="Java">
-          <IconButton disableRipple="true" className="icBtn">
+          <IconButton disableRipple className="icBtn">
             <Avatar
               sx={{ width: 64, height: 64 }}
               variant="circular"

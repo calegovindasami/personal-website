@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import { Bio } from "./components/Bio/Bio";
 import "./App.css";
 import BasicTabs from "./components/BasicTabs/BasicTabs";
@@ -15,8 +12,6 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>

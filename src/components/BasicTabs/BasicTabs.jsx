@@ -4,7 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { Tweet } from "../Tweet/Tweet";
+import Introduction from "../Introduction/Introduction";
 import { Contact } from "../Contact/Contact";
 import { About } from "../About/About";
 import "./BasicTabs.css";
@@ -21,7 +21,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          <div>{children}</div>
         </Box>
       )}
     </div>
@@ -61,16 +61,17 @@ export default function BasicTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          aria-label="basic tabs example"
+          aria-label="tabs"
+          indicatorColor="primary"
           id="tabParent"
         >
-          <Tab label="Feed" {...a11yProps(0)} />
-          <Tab label="About Me" {...a11yProps(1)} />
-          <Tab label="Contact" {...a11yProps(2)} />
+          <Tab style={{ outline: "none" }} label="Feed" {...a11yProps(0)} />
+          <Tab style={{ outline: "none" }} label="About Me" {...a11yProps(1)} />
+          <Tab style={{ outline: "none" }} label="Contact" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel id="tbPanel" value={value} index={0}>
-        <Tweet />
+        <Introduction />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <div id="demo">

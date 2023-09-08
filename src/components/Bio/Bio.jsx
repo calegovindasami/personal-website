@@ -55,13 +55,15 @@ export const Bio = () => {
           <div>
             <ArticleIcon fontSize="small" sx={{ color: "GrayText" }} />
             <Typography variant="body1" sx={{ color: "GrayText" }}>
-              <a>Download CV</a>
+              <a href="src\assets\Cale_Govindasami_CV.pdf" download>
+                Download CV
+              </a>
             </Typography>
           </div>
           <div>
             <LinkIcon fontSize="small" sx={{ color: "GrayText" }} />
             <Typography variant="body1" sx={{ color: "GrayText" }}>
-              <a>Links</a>
+              <a href="https://github.com/cgov-0406">GitHub</a>
             </Typography>
           </div>
 
@@ -75,7 +77,7 @@ export const Bio = () => {
           <div>
             <SchoolIcon fontSize="small" sx={{ color: "GrayText" }} />
             <Typography variant="body1" sx={{ color: "GrayText" }}>
-              Graduating 2024
+              Graduating 2023
             </Typography>
           </div>
         </div>

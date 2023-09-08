@@ -10,7 +10,7 @@ import Chip from "@mui/material/Chip";
 import ShareIcon from "@mui/icons-material/Share";
 import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import "./Tweet.css";
+import "./Introduction.css";
 import {
   Avatar,
   CardActionArea,
@@ -19,14 +19,17 @@ import {
   IconButton,
 } from "@mui/material";
 
-import { useTheme } from "@emotion/react";
-
 function handleTag() {}
-export const Tweet = () => {
+export default function Introduction() {
   return (
-    <Card sx={{ width: "800px" }}>
-      <CardActionArea sx={{ cursor: "default" }} disableTouchRipple={true}>
+    <Card sx={{ width: "800px" }} component="div">
+      <CardActionArea
+        sx={{ cursor: "default" }}
+        disableTouchRipple={true}
+        component="div"
+      >
         <Box
+          component="div"
           sx={{
             display: "flex",
             flexDirection: "column",
@@ -78,15 +81,19 @@ export const Tweet = () => {
           </CardMedia>
         </Box>
         <CardActions>
-          <Button>
+          <Button style={{ outline: "none" }} disableRipple={true}>
             <FavoriteIcon sx={{ color: red[500] }} />
           </Button>
 
-          <IconButton size="large">
+          <Button
+            style={{ outline: "none", color: "white" }}
+            disableRipple={true}
+            size="large"
+          >
             <ShareIcon />
-          </IconButton>
+          </Button>
         </CardActions>
       </CardActionArea>
     </Card>
   );
-};
+}
