@@ -5,7 +5,10 @@
 }
 
 #ThreeD {
-  background-color: aliceblue;
+  background-image: url("/night-sky.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 250px;
 }
 
