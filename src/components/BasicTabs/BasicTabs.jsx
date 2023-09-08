@@ -74,7 +74,7 @@ export default function BasicTabs() {
         <Introduction />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <div id="demo">
+        <div id="demo" className="demo">
           <About />
         </div>
       </TabPanel>
